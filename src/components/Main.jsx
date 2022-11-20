@@ -35,7 +35,7 @@ const Main = () => {
     const [eleven, set11] = useState("");
     const [twelve, set12] = useState("");
     const style = {
-        wrapper: modal ? 'h-[677px] lg:w-[480px] px-8 rounded-2xl lg:-translate-x-[25rem] ease-in duration-300' : 'ease-in duration-300 h-[677px]  px-8 rounded-2xl -translate-x-[0rem]',
+        wrapper: modal ? 'h-[677px] lg:w-[480px] px-8 rounded-2xl lg:-translate-x-[25rem] ease-in duration-300 mx-4' : 'mx-4 ease-in duration-300 h-[677px]  px-8 rounded-2xl -translate-x-[0rem]',
         sec_wrapper: modal ? 'ease-in duration-300 flex flex-col items-center lg:pl-24 pb-5 lg:translate-x-[25rem]' : 'ease-in duration-300 flex flex-col items-center lg:pl-24 pb-5 translate-x-[0rem]'
     }
 
@@ -212,11 +212,11 @@ const Main = () => {
                             <img src='https://i.ibb.co/cFqXdQr/fwefwefewf-removebg-preview.png' className='mb-2' />
                             <p className='text-[30px] text-white font-[700] mb-2'>Welcome to Petra</p>
                             <p className='text-[15px] text-[#C2C7CC] font-[400] mb-40'>Guiding your web3 journey.</p>
-                            <button className='bg-[#e15656] text-[20px] font-[700] text-white rounded-lg w-[26rem] px-5 py-3 mb-4'>Create New Wallet</button>
+                            <button className='bg-[#e15656] text-[20px] font-[700] text-white rounded-lg lg:w-[26rem] w-[16rem]  px-5 py-3 mb-4'>Create New Wallet</button>
                             <button onClick={() => {
                                 handleModal()
                                 handleNext()
-                            }} className='bg-[transparent] hover:bg-white ease-in duration-300 border border-white text-[20px] font-[700] text-white rounded-lg w-[26rem] px-5 py-3'>Import Wallet</button>
+                            }} className='bg-[transparent] hover:bg-white ease-in duration-300 border border-white text-[20px] font-[700] text-white rounded-lg lg:w-[26rem] w-[16rem]  px-5 py-3'>Import Wallet</button>
                         </div>
                 }
             </div>
